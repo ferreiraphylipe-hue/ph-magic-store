@@ -117,7 +117,43 @@
   <div class="overlay" id="overlay"></div>
   <aside class="cart-drawer" id="cartDrawer" aria-label="Carrinho de compras" aria-hidden="true">
     <div class="drawer-header"><div><p class="eyebrow">Sua seleção</p><h2>Meu carrinho</h2></div><button id="closeCart" class="close-button" aria-label="Fechar carrinho">×</button></div>
-    <div class="cart-items" id="cartItems"><p class="empty-cart">Seu carrinho está vazio por enquanto.</p></div>
+    <div class="cart-items" id="cartItems"><p class="empty-cart">Seu carrinho está vazio por enquanto.</p></div><div class="cart-footer">
+
+    <div class="cart-total">
+        <span>Total estimado</span>
+        <strong id="cartTotal">R$ 0,00</strong>
+    </div>
+
+    <!-- DADOS DE ENTREGA -->
+    <div class="delivery-form">
+
+        <h3>📦 Dados para entrega</h3>
+
+        <input type="text" id="customerName" placeholder="Nome completo">
+
+        <input type="text" id="customerStreet" placeholder="Rua ou avenida">
+
+        <input type="text" id="customerNumber" placeholder="Número">
+
+        <input type="text" id="customerComplement" placeholder="Complemento (opcional)">
+
+        <input type="text" id="customerNeighborhood" placeholder="Bairro">
+
+        <input type="text" id="customerCity" placeholder="Cidade">
+
+        <input type="text" id="customerCEP" placeholder="CEP">
+
+        <textarea id="customerReference" placeholder="Ponto de referência (opcional)"></textarea>
+
+    </div>
+
+    <button class="button button-gold checkout-button" id="checkoutButton">
+        Finalizar pelo WhatsApp →
+    </button>
+
+    <small>O pedido será enviado para confirmação. Nenhum pagamento é processado neste site.</small>
+
+</div>
     <div class="cart-footer"><div class="cart-total"><span>Total estimado</span><strong id="cartTotal">R$ 0,00</strong></div><button class="button button-gold checkout-button" id="checkoutButton">Finalizar pelo WhatsApp →</button><small>O pedido será enviado para confirmação. Nenhum pagamento é processado neste site.</small></div>
   </aside>
 
