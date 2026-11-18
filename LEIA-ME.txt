@@ -1,0 +1,26 @@
+PH MAGIC STORE — SITE INICIAL
+
+COMO ABRIR
+1. Extraia o arquivo ZIP.
+2. Abra a pasta PH-Magic-Store no VS Code.
+3. Abra o arquivo index.html no navegador (recomendado: extensão Live Server).
+
+ANTES DE PUBLICAR
+1. Abra js/script.js.
+2. Localize WHATSAPP_NUMBER e troque 5500000000000 pelo número da loja, com código do país e DDD, somente números.
+   Exemplo fictício: 5511999999999.
+3. No mesmo arquivo, edite a lista `products` com nomes, descrições, categorias e preços reais.
+4. Substitua as imagens/emoji demonstrativos por fotos reais dos produtos, se desejar.
+5. Confira o texto, os preços, a disponibilidade, links e dados de contato.
+
+O QUE JÁ FUNCIONA
+- Layout responsivo para computador e celular.
+- Navegação por seções.
+- Categorias e filtros.
+- Busca de produtos.
+- Carrinho com quantidades e remoção.
+- Persistência do carrinho no navegador (localStorage).
+- Montagem do pedido e encaminhamento para WhatsApp.
+
+IMPORTANTE
+Este é um catálogo com pedido via WhatsApp. Não processa pagamentos, não calcula frete e não possui estoque integrado ou painel administrativo. Os produtos e preços incluídos são exemplos fictícios e devem ser substituídos antes de divulgar a loja.
