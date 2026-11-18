@@ -177,7 +177,7 @@ document.getElementById("checkoutButton").addEventListener("click", () => {
   });
   const total = cart.reduce((sum,item) => sum + products.find(p => p.id === item.id).price * item.quantity, 0);
   const message = `Olá! Quero consultar este pedido na Ph Magic Store:\n\n${lines.join("\n")}\n\nTotal estimado: ${money(total)}\n\nPoderia confirmar disponibilidade e formas de pagamento?`;
-  if (WHATSAPP_NUMBER === "5500000000000") {
+  if (WHATSAPP_NUMBER === "5533984216811") {
     showToast("Configure o número de WhatsApp no arquivo js/script.js.");
     return;
   }
