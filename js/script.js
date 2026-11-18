@@ -1,5 +1,5 @@
 // CONFIGURAÇÃO DA LOJA: substitua pelo número real, com DDI e DDD, somente números.
-const WHATSAPP_NUMBER = "5500000000000"; // Exemplo: 5511999999999
+const WHATSAPP_NUMBER = "5533984216811"; // Exemplo: 5511999999999
 
 // Edite estes produtos de demonstração com os itens reais da Ph Magic Store.
 const products = [
